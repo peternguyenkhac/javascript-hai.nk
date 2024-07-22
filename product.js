@@ -81,6 +81,7 @@ function totalProduct(listProduct) {
         .reduce((total, p) => total + p.quantity, 0);
 };
 
+
 function totalProductWithForLoop(listProduct) {
     var total = 0;
     listProduct.forEach(p => {
